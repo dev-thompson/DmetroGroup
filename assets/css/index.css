@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+}
+
+/* ============= global design ============= */
+:root {
+    --primary:#1e96c6;
+    --secondary:white;
+    --tertiary:black;
+    --main: #33406a;
+    --dim-main:#324fb0;
+}
+.main-button {
+    border: none;
+    outline: none;
+    padding: 15px 30px;
+    background-color: var(--primary);
+    color: var(--secondary);
+    font-weight: bold;
+    border-radius: 50px;
+    font-size: 15px;
+}
+.margin {
+    margin: 0 4%;
+}
+/* ============= end of global design ============= */
+
+body{
+   background: var(--secondary);
+   font-family: sans-serif;
+}
+/* =============== navbar section =================== */
+.all-navbar {
+    background: var(--secondary) ;
+    border-bottom: 1px solid #ccc;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.navbar-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.nav-right a {
+    text-decoration: none;
+    color: var(--tertiary);
+    font-weight: bold;
+    font-size: 15px;
+}
+/* =============== end of navbar section =================== */
+
+/* ================== hero section ======================== */
+.hero-content {
+    display: flex;
+    align-items:flex-start;
+}
+.hero-left{
+    width: 50%;
+}
+.hero-left img{
+    width: 100%;
+}
+.hero-right {
+    width: 50%;
+}
+.hero-right h1 span{
+    display: block;
+    font-size: 70px;
+    color: var(--main);
+}
+.hero-right p {
+    font-size: 30px;
+    color: var(--main);
+}
+/* ================== end of hero section ======================== */
+
+
+/* =================== info section ============================== */
+.intro-item {
+    display: flex;
+    align-items:baseline;
+    gap: 30px;
+}
+.intro-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 25px 0;
+    box-shadow: 0 0 1px  var(--primary);
+}
+.intro-title h1{
+    color: var(--dim-main);
+}
+.intro-title p{
+    color: var(--main);
+}
+/* =================== end of info section ============================== */
+
+/* =================== about section =========================== */
+.about-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+
+}
+.about-left {
+    width: 50%;
+}
+.about-left img {
+    width: 100%;
+}
+.about-right {
+    width: 50%;
+}
+.about-right h5 {
+    font-weight: bold;
+    color:var(--dim-main);
+}
+.about-right h1 {
+    font-weight: bold;
+    color:var(--main);
+    font-size: 50px;
+}
+.about-right p {
+    font-size: 20px;
+    color: var(--main);
+}
+.about-item-1 {
+    display: flex;
+    align-items:flex-start;
+    gap: 25px;
+}
+.about-title h4 {
+    color: var(--main);
+    font-weight: bolder;
+}
+.about-title p {
+    color: var(--main);
+    font-weight: lighter;
+}
+/* =================== end of about section =========================== */
+
+/* ======================= features section =========================== */
+.all-features {
+    margin: 100px 0 0 0;
+}
+.features-content h4 {
+    text-align: center;
+    color: var(--dim-main);
+    font-weight: bold;
+}
+.features-content h1 {
+    color: var(--main);
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+.features-content p span{
+    text-align: center;
+    color: var(--main);
+    display: block;
+}
+.features-title h4 {
+    text-align: center;
+    color: var(--main);
+    font-weight: bolder;
+
+}
+.features-title p {
+    text-align: center;
+    color: var(--main);
+
+}
+.features-image {
+    text-align: center;
+}
+.features-image img{
+    padding: 20px 26px;
+    border-radius: 100%;
+    background-color: var(--secondary);
+    box-shadow: 1px 1px 10px #cce9f5b4;
+}
+.fetures {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+/* ======================= end of features section =========================== */
+
+/* ======================= get to know section ============================= */
+.know-left {
+    padding: 50px;
+    border: 30px solid #e6ebfd ;
+    outline: 30px solid #eaefff;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background: radial-gradient(circle at center, #e8f0ff 0%, #d1e1ff 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    z-index: 50;
+}
+.step-number h1{
+    color: var(--secondary);
+    background-color:#bfcbf2 ;
+    padding: 4px 5px;
+    width: fit-content;
+    font-size: 40px;
+    font-weight: lighter;
+    border-radius: 100%;
+}
+.step-title h4{
+    text-align: unset;
+    color: var(--main);
+    margin-bottom: 15px;
+}
+.step-title p{
+    color: var(--main);
+}
+.step-title a {
+    text-decoration: none;
+    color: blue;
+}
+.know-right-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.get-to-know {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+/* ======================= end of get to know section ============================= */
