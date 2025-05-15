@@ -13,12 +13,48 @@
 .main-button {
     border: none;
     outline: none;
-    padding: 15px 30px;
+    padding: 15px 40px;
     background-color: var(--primary);
     color: var(--secondary);
     font-weight: bold;
     border-radius: 50px;
     font-size: 15px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 20px;
+}
+.main {
+    border: none;
+    outline: none;
+    padding: 15px 40px;
+    background-color: var(--secondary);
+    color: var(--primary);
+    font-weight: bold;
+    border-radius: 50px;
+    font-size: 15px;
+    margin: 5px;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    gap: 20px;
+}
+.plan {
+    border: none;
+    outline: none;
+    padding: 15px 40px;
+    background-color: var(--dim-main);
+    color: var(--secondary);
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 15px;
+    margin: 5px;
+    transition: 0.1s;
+}
+.plan:hover {
+    background: transparent;
+    border: 1px solid var(--primary);
+    color: var(--primary);
 }
 .margin {
     margin: 0 4%;
@@ -211,14 +247,16 @@ body{
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    z-index: 50;
+    z-index: 10;
+    overflow: hidden;
+    position: relative;
 }
 .step-number h1{
     color: var(--secondary);
-    background-color:#bfcbf2 ;
+    background-color:var(--primary);
     padding: 4px 5px;
     width: fit-content;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: lighter;
     border-radius: 100%;
 }
@@ -236,7 +274,7 @@ body{
 }
 .know-right-content {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 40px;
 }
 .get-to-know {
@@ -244,5 +282,333 @@ body{
     align-items: center;
     gap: 100px;
 }
+.slide {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.slide.active {
+  opacity: 1;
+}
 
 /* ======================= end of get to know section ============================= */
+
+/* ======================= call back section ============================= */
+.all-call-back {
+    margin: 100px 0;
+    padding: 50px 0;
+    background: var(--primary);
+    box-shadow: 1px 1px 10px #cce9f5b4;
+}
+.call-back-right img{
+    padding: 13px;
+    border-radius: 100%;
+    background-color: var(--secondary);
+    margin: 5px;
+}
+.call-icon {
+    border: 1px dashed var(--secondary);
+    border-radius: 100%;
+}
+.call-button {
+    border: 1px dashed var(--secondary);
+    border-radius: 50px;
+}
+.call-back-right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.call-back-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.call-back-left p {
+    color: var(--secondary);
+    font-size: 20px;
+}
+.call-back-left h2 {
+    color: var(--secondary);
+    font-weight: bold;
+}
+.transaction-item.active {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--secondary);
+    background: var(--primary);
+    width: fit-content;
+    padding: 5px 30px 2px 30px;
+    border-radius: 30px;
+}
+.transaction-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    color: var(--secondary);
+    background: var(--main);
+    width: fit-content;
+    padding: 5px 30px 2px 30px;
+    border-radius: 30px;
+}
+.transaction-item h6 {
+    font-size: 12px;
+
+}
+.transaction-item-content {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    gap: 40px;
+    border-radius: 40px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    width: fit-content;
+}
+.details-item {
+    text-align: center;
+    border: 1px solid #ccc;
+    width: 100%;
+    display: block;
+    padding: 30px 10px 20px 10px;
+    border-radius: 20px;
+    justify-self: center;
+    cursor: pointer;
+}
+.details-item:hover {
+    margin-bottom: 10px;
+}
+.details-item h4{
+    color: var(--main);
+    font-weight: bold;
+}
+.details-item p{
+    color: var(--main);
+    font-size: 15px;
+}
+.details-item h5{
+    color: var(--dim-main);
+    font-weight: bold;
+    font-size: 25px;
+}
+.details-item h5:hover{
+    color: var(--main);
+    font-weight: bold;
+    font-size: 25px;
+}
+.details-content {
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap: 30px;
+}
+.second-details {
+    display: none;
+    
+}
+.third-details {
+    display: none;
+    
+}
+/* ======================= end of call back section ============================= */
+
+
+/* ============================= afiliate section ================================ */
+.affiliate-left {
+    width: 50%;
+}
+.affiliate-right {
+    width: 50%;
+}
+.affiliate-right img {
+    width: 100%;
+}
+.affiliate-left h4 {
+    color: var(--dim-main);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.affiliate-left h1 {
+    color: var(--main);
+    font-weight: bold;
+    font-size: 50px;
+}
+.affiliate-left p span{
+    display: block;
+    color: var(--main);
+    font-size: 17px;
+}
+.affiliate-content {
+    display: flex;
+    align-items: flex-start;
+}
+/* ============================= end of afiliate section ================================ */
+
+/* =================================== plan section ==================================== */
+.percent {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+.percent h4 {
+    font-size: 40px;
+    color: var(--primary);
+}
+.plan-type {
+    background: var(--main);
+    color: var(--secondary);
+    padding: 40px;
+    border-radius: 10px;
+    width: 100%;
+}
+.plan-type h3{
+    font-weight: bold;
+    font-size: 30px;
+}
+.plan-type p{
+    color: #eee;
+}
+.line{
+    border: 1px dashed #bbb;
+    margin: 15px 0 25px 0;
+}
+.plan-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.call-button a {
+    text-decoration: none;
+}
+/* =================================== end of plan section ==================================== */
+
+
+/* =============================== earn crypto section ==================================== */
+.earn-title h5 {
+    color: var(--secondary);
+    font-weight: bold;
+}
+.straight-line{
+    height: 80px;
+    width: 1px;
+    background: var(--secondary);
+}
+.start-earn {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+/* =============================== end of earn crypto section ==================================== */
+
+
+/* =========================== testimonial section ======================================= */
+.testimonial-left {
+    width: 50%;
+}
+.testimonial-right {
+    width: 50%;
+}
+.testimonial-right img {
+    width: 100%;
+}
+.testimonial-left h4 {
+    color: var(--dim-main);
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+.testimonial-left h1{
+    color: var(--main);
+    font-weight: bold;
+    font-size: 50px;
+}
+.testimonial-left h1 span{
+    color: #e95d06;
+}
+.testimonial-content {
+    display: flex;
+    align-items: flex-start;
+}
+.testimonial-left p span{
+    display: block;
+    color: var(--main);
+}
+.testimonial-left p{
+    margin-bottom: 30px;
+}
+.testimony-text {
+    background-color: var(--secondary);
+    text-align: center;
+    box-shadow: 1px 1px 5px #ddd;
+    padding: 20px;
+    width: 100%;
+    display: block;
+    justify-self: center;
+    margin-bottom: 20px;
+}
+.testimony-text p span{
+    display: block;
+    color: var(--main);
+}
+.review i {
+    color: gold;
+}
+.team img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    display: flex;
+    justify-self: center;
+}
+ .testimony {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 1rem;
+  padding: 1rem;
+  scroll-behavior: smooth;
+}
+
+.testimony::-webkit-scrollbar {
+  display: none;
+}
+
+.testimony-content {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  min-width: 280px;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* =========================== end of testimonial section ======================================= */
+
+
+/* ============================= footer section ============================================= */
+.footer-right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.footer-right a{
+    text-decoration: none;
+    color: var(--dim-main);
+    font-weight: bold;
+}
+.footer-content {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.all-footer {
+    padding: 50px 0;
+    background:var(--secondary);
+    border-top: 1px solid #eee;
+}
+/* ============================= end of footer section ============================================= */
