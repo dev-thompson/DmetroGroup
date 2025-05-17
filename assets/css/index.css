@@ -327,6 +327,9 @@ body{
     background-color: var(--secondary);
     box-shadow: 1px 1px 10px #cce9f5b4;
 }
+.mission-image {
+    text-align: center;
+}
 .fetures {
     display: flex;
     align-items: center;
@@ -400,8 +403,8 @@ body{
 
 /* ======================= call back section ============================= */
 .all-call-back {
-    /* margin: 100px 0; */
-    /* padding: 50px 0; */
+    margin: 50px 0;
+    padding: 50px 0;
     background: var(--primary);
     box-shadow: 1px 1px 10px #cce9f5b4;
 }
@@ -715,3 +718,48 @@ body{
     border-top: 1px solid #eee;
 }
 /* ============================= end of footer section ============================================= */
+
+/* ==================================== about =================================== */
+.about-head {
+    padding: 100px 0;
+    background-color: #f8f8f8;
+}
+.about-title h1{
+    font-size: 70px;
+    font-weight: bold;
+    color: var(--main);
+}
+.about-title h5{
+    font-size: 15px;
+    color: var(--dim-main);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.about-title a{
+    text-decoration: none;
+    color: var(--dim-main);
+}
+.mission {
+    text-align: center;
+}
+.mission h4{
+    color: var(--dim-main);
+}
+.mission h1{
+    color: var(--main);
+    font-weight: bold;
+    font-size: 50px;
+}
+.mission p span {
+    display: block;
+}
+.mission {
+    margin-bottom: 40px;
+}
+.mission-title {
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+/* ==================================== end of about =================================== */

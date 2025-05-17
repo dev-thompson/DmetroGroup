@@ -216,12 +216,15 @@
         display: block;
         font-size: 40px;
     }
+    .about-title h1 {
+        font-size: 6    0px;
+    }
     .hero-right p {
         font-size: 20px;
     }
     #sidebar {
         width: 65%;
-        height: 30vh;
+        height: 50vh;
     }
     .about-right h1 {
         font-weight: bold;

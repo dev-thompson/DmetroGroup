@@ -1,71 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./assets/image/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="./assets/icons/css/all.css">
-    <link rel="stylesheet" href="./assets/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/index.css">
-    <link rel="stylesheet" href="./assets/css/media.css">
-      <!-- AOS CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+   <?php 
+        require_once('./header.php');
+   ?>
 
-    <title>WealthForge</title>
-</head>
-<body>
+   <?php 
+        require_once('./sidebar.php');
+   ?>
 
-    <!-- =========================== sidebar section ========================== -->
-        <nav id="sidebar">
-      <div class="side-content">
-      <div class="side-logo py-2">
-          <img width="190" src="./assets/image/black-logo.png" alt="">
-      </div>
-          <div class="middle">
-            <div class="side-line"></div>
-              <!-- <div class="side-line mb-3"></div> -->
-              <div class="side-right">
-                  <div class="side-item margin-1 mb-3 px-3">
-                      <a href="">HOME</a>
-                  </div>
-                  <!-- <div class="side-line mb-3 mt-3"></div> -->
-                  <div class="side-item margin-1 mb-3 px-3">
-                      <a href="">ABOUT</a>
-                  </div>
-                  <!-- <div class="side-line mb-3 mt-3"></div> -->
-                  <div class="side-item margin-1">
-                      <a href="" class="w-100">
-                        <button class="side-button w-100">LOGIN</button>
-                      </a>
-                  </div>
-
-              </div>
-          </div>
-      </div>
-  </nav> 
-    <!-- =========================== end of sidebar section ========================== -->
-
-    <!-- =============== Navbar section =============== -->
-     <nav class="all-navbar">
-        <div class="navbar-content margin">
-            <div class="nav-left">
-                <img width="200" src="./assets/image/black-logo.png" alt="">
-            </div>
-            <div class="nav-right">
-                <a href="">HOME</a>
-                <a href="">ABOUT</a>
-                <a href="">
-                    <button class="main-button">JOIN US</button>
-                </a>
-            </div>
-            <div id="bars">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-     </nav>
-    <!-- =============== end of Navbar section =============== -->
+   <?php 
+        require_once('./navbar.php');
+   ?>
 
 
     <!-- ================ hero section ==================== -->
@@ -854,25 +797,11 @@
     <!-- ============================ end of testimonial section =================================== -->
 
 
-    <!-- =================================== footer section ====================================== -->
-     <footer class="all-footer">
-        <div class="footer-content margin">
-            <div class="footer-left">
-                <a href=""><img width="250" src="./assets/image/black-logo.png" alt=""></a>
-            </div>
-            <div class="footer-right">
-                <a href="">ABOUT</a>
-                <a href="">AFFILIATE</a>
-                <a href="">PLANS</a>
-                <a href="">FAQS</a>
-                <a href="">PRIVACY</a>
-            </div>
-        </div>
-     </footer>
-    <!-- =================================== end of footer section ====================================== -->
+ 
 
 
 <?php 
+    require_once ('./footer.php');
     require_once ('./script.php');
 ?>
 
