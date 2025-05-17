@@ -400,8 +400,8 @@ body{
 
 /* ======================= call back section ============================= */
 .all-call-back {
-    margin: 100px 0;
-    padding: 50px 0;
+    /* margin: 100px 0; */
+    /* padding: 50px 0; */
     background: var(--primary);
     box-shadow: 1px 1px 10px #cce9f5b4;
 }

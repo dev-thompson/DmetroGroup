@@ -220,7 +220,7 @@
 
 
     <!-- ========================= get to know section =========================== -->
-     <section class="all-features pt-5">
+     <section class="all-features pt-3">
         <div class="features-content margin">
             <span data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                 <h4>Get To Know</h4>
@@ -229,7 +229,7 @@
                     <span>Follow these simple steps and make profit!</span>
                 </p>
             </span>
-            <div class="get-to-know margin py-5">
+            <div class="get-to-know margin ">
                 <div class="know-left" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
                     <img src="./assets/image/how01.png" class="slide active" alt="">
                     <img src="./assets/image/how02.png" class="slide" alt="">
@@ -272,7 +272,7 @@
     <!-- ========================== call back section ============================ -->
      <section class="all-call-back" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
         <div class="call-back-content margin">
-            <div class="call-back-left mb-5">
+            <div class="call-back-left">
                 <p>Why We are always ready</p>
                 <h2>REQUEST A CALL BACK</h2>
             </div>
@@ -291,7 +291,7 @@
     <!-- ========================== end of call back section ============================ -->
 
     <!-- =========================== plan section ======================================= -->
-     <section class="all-plan py-5">
+     <section class="all-plan pb-4">
         <div class="features-content margin">
             <span data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                 <h4>INVESTMENT OFFER</h4>
@@ -699,7 +699,7 @@
       <!-- ========================== call back section ============================ -->
      <section class="all-call-back" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
         <div class="call-back-content margin">
-            <div class="start-earn mb-4">
+            <div class="start-earn">
                 <div class="earn-image">
                     <img src="./assets/image/icon01.png" alt="">
                 </div>
