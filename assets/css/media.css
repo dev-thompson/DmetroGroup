@@ -1,0 +1,230 @@
+@media (max-width:6000px) {
+       #bars {
+        cursor: pointer;
+        display: none;
+    }
+    #sidebar {
+        position: fixed;
+        top: 0;
+        left: -1000px;
+        height: 50vh;
+        background-color:var(--secondary);
+        width: 25%;
+        border-radius: 0 30px 30px 0;
+        border: 1px solid #ddd;
+        padding:10px 15px;
+        color: var(--dim-main);
+        transition: left 1s ease;
+        display: none;
+        z-index: 10000;
+    }
+}
+
+
+@media (max-width:1000px) {
+    .hero-left {
+        display: none;
+    }
+    .hero-right {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+}
+
+
+@media (max-width:970px) {
+     #bars {
+        display: block;
+    }
+    #sidebar {
+        display: block;
+        width: 35%;
+        height: 30vh;
+    }
+    .nav-right {
+        display: none;
+    }
+    .about-content{
+        display:grid;
+        align-items: center;
+        grid-template-areas: "about-right" "about-left";
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .about-left {
+        grid-area: about-left;
+        width: 100%;
+    }
+    .about-right {
+        grid-area: about-right;
+        width: 100%;
+    }
+    .get-to-know{
+        display:grid;
+        align-items: center;
+        grid-template-areas: "about-right" "about-left";
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .know-left {
+        grid-area: about-left;
+        width: 100%;
+    }
+    .know-right {
+        grid-area: about-right;
+        width: 100%;
+    }
+    .intro-content {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .fetures {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .plan-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .details-content {
+        display: grid;
+        grid-template-columns:repeat(3, 1fr);
+        gap: 30px;
+    }
+}
+@media (max-width:800px) {
+    .details-content {
+        display: grid;
+        grid-template-columns:repeat(2, 1fr);
+        gap: 30px;
+    }
+    .affiliate-content {
+        display: grid;
+        grid-template-columns: repeat(1);
+    }
+    .affiliate-left {
+        width: 100%;
+    }
+    .affiliate-right {
+        width: 100%;
+    }
+    .testimonial-right {
+        display: none;
+    }
+    .testimonial-left {
+        width: 100%;
+    }
+     #sidebar {
+        width: 55%;
+        height: 30vh;
+    }
+}
+
+@media (max-width:750px) {
+    .footer-content {
+        display: block;
+    }
+    .footer-right {
+        display: grid;
+        grid-template-columns: repeat(1fr);
+        margin-top: 40px;
+    }
+}
+@media (max-width:700px) {
+    .call-back-content {
+        display: block;
+        justify-items: center;
+    }
+    .call-back-left {
+        text-align: center;
+    }
+    .transaction-item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+        padding: 5px 20px 2px 20px;
+        border-radius: 30px;
+    }
+    .transaction-item h6 {
+        font-size: 10px;
+    }
+    .transaction-item i {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width:600px) {
+    .transaction-item-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem; 
+    }
+
+    .transfer-1,
+    .transfer-2 {
+        flex: 1 1 45%; 
+        max-width: 200px;
+    }
+
+    .transfer-3 {
+        flex: 1 1 100%;
+        display: flex;
+        justify-content: center;
+        max-width: fit-content;
+    }
+    .hero-right h1 span{
+        display: block;
+        font-size: 60px;
+    }
+    .hero-right p {
+        font-size: 20px;
+    }
+    .details-content {
+        display: grid;
+        grid-template-columns:repeat(1, 1fr);
+        gap: 30px;
+    }
+    .intro-content {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-self: center;
+    }
+    /* .intro-item {
+        display: block;
+        text-align: center;
+    } */
+    .fetures {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .plan-content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+    .know-left {
+        display: none;
+    }
+
+}
+@media (max-width:420px) {
+    .hero-right h1 span{
+        display: block;
+        font-size: 40px;
+    }
+    .hero-right p {
+        font-size: 20px;
+    }
+    #sidebar {
+        width: 65%;
+        height: 30vh;
+    }
+    .about-right h1 {
+        font-weight: bold;
+        color:var(--main);
+        font-size: 40px;
+    }
+}

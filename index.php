@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./assets/icons/css/all.css">
     <link rel="stylesheet" href="./assets/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/media.css">
       <!-- AOS CSS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
 
@@ -14,9 +15,39 @@
 </head>
 <body>
 
+    <!-- =========================== sidebar section ========================== -->
+        <nav id="sidebar">
+      <div class="side-content">
+      <div class="side-logo py-2">
+          <img width="190" src="./assets/image/black-logo.png" alt="">
+      </div>
+          <div class="middle">
+            <div class="side-line"></div>
+              <!-- <div class="side-line mb-3"></div> -->
+              <div class="side-right">
+                  <div class="side-item margin-1 mb-3 px-3">
+                      <a href="">HOME</a>
+                  </div>
+                  <!-- <div class="side-line mb-3 mt-3"></div> -->
+                  <div class="side-item margin-1 mb-3 px-3">
+                      <a href="">ABOUT</a>
+                  </div>
+                  <!-- <div class="side-line mb-3 mt-3"></div> -->
+                  <div class="side-item margin-1">
+                      <a href="" class="w-100">
+                        <button class="side-button w-100">LOGIN</button>
+                      </a>
+                  </div>
+
+              </div>
+          </div>
+      </div>
+  </nav> 
+    <!-- =========================== end of sidebar section ========================== -->
+
     <!-- =============== Navbar section =============== -->
      <nav class="all-navbar">
-        <div class="navbar-content container">
+        <div class="navbar-content margin">
             <div class="nav-left">
                 <img width="200" src="./assets/image/black-logo.png" alt="">
             </div>
@@ -26,6 +57,11 @@
                 <a href="">
                     <button class="main-button">JOIN US</button>
                 </a>
+            </div>
+            <div id="bars">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </div>
      </nav>
@@ -39,14 +75,16 @@
                 <img src="./assets/image/plot.png" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
             </div>
             <div class="hero-right" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                <h1>
-                    <span>SIMPLY</span>
-                    <span> <strong>PROFITABLE</strong></span>
-                    <span>CONVENIENTLY</span>
-                </h1>
-                <p>A Profitable platform for high-margin investment</p>
-                <div class="hero-right-cta">
-                    <button class="main-button">Get Started Now!</button>
+                <div class="hero-right-content">
+                    <h1>
+                        <span>SIMPLY</span>
+                        <span> <strong>PROFITABLE</strong></span>
+                        <span>CONVENIENTLY</span>
+                    </h1>
+                    <p>A Profitable platform for high-margin investment</p>
+                    <div class="hero-right-cta">
+                        <button class="main-button">Get Started Now!</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -56,7 +94,7 @@
 
     <!-- =================== intro section ======================== -->
     <section class="all-intro pb-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-        <div class="intro-content">
+        <div class="intro-content margin">
             <div class="intro-item">
                 <div class="intro-image">
                     <img src="./assets/image/counter01.png" alt="">
@@ -191,7 +229,7 @@
                     <span>Follow these simple steps and make profit!</span>
                 </p>
             </span>
-            <div class="get-to-know container py-5">
+            <div class="get-to-know margin py-5">
                 <div class="know-left" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
                     <img src="./assets/image/how01.png" class="slide active" alt="">
                     <img src="./assets/image/how02.png" class="slide" alt="">
@@ -234,7 +272,7 @@
     <!-- ========================== call back section ============================ -->
      <section class="all-call-back" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
         <div class="call-back-content margin">
-            <div class="call-back-left">
+            <div class="call-back-left mb-5">
                 <p>Why We are always ready</p>
                 <h2>REQUEST A CALL BACK</h2>
             </div>
@@ -242,11 +280,11 @@
                 <div class="call-icon">
                     <img src="./assets/image/icon02.png" alt="">
                 </div>
+                <div class="call-button">
                 <a href="">
-                    <div class="call-button">
                         <button class="main">Place Call</button>
-                    </div>
                 </a>
+                </div>
             </div>
         </div>
      </section>
@@ -254,7 +292,7 @@
 
     <!-- =========================== plan section ======================================= -->
      <section class="all-plan py-5">
-        <div class="features-content container">
+        <div class="features-content margin">
             <span data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                 <h4>INVESTMENT OFFER</h4>
                 <h1>OUR INVESTMENT PLANS</h1>
@@ -264,7 +302,7 @@
                 </p>
             </span>
             <div class="plan-content py-5">
-                <div class="plan-type">
+                <div class="plan-type" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                     <h3>Silver plan</h3>
                     <div class="percent">
                         <h4>5%</h4>
@@ -278,7 +316,7 @@
                         <button class="plan">DEPOSITE</button>
                     </div>
                 </div>
-                <div class="plan-type">
+                <div class="plan-type" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                     <h3>Gold plan</h3>
                     <div class="percent">
                         <h4>15%</h4>
@@ -292,7 +330,7 @@
                         <button class="plan">DEPOSITE</button>
                     </div>
                 </div>
-                <div class="plan-type">
+                <div class="plan-type" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                     <h3>Plantinum plan</h3>
                     <div class="percent">
                         <h4>50%</h4>
@@ -306,7 +344,7 @@
                         <button class="plan">DEPOSITE</button>
                     </div>
                 </div>
-                <div class="plan-type">
+                <div class="plan-type" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                     <h3>Diamond plan</h3>
                     <div class="percent">
                         <h4>100%</h4>
@@ -320,7 +358,7 @@
                         <button class="plan">DEPOSITE</button>
                     </div>
                 </div>
-                <div class="plan-type">
+                <div class="plan-type" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                     <h3>Premium plan</h3>
                     <div class="percent">
                         <h4>100%</h4>
@@ -334,7 +372,7 @@
                         <button class="plan">DEPOSITE</button>
                     </div>
                 </div>
-                <div class="plan-type">
+                <div class="plan-type" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                     <h3>Premium plan</h3>
                     <div class="percent">
                         <h4>100%</h4>
@@ -356,7 +394,7 @@
 
     <!-- =========================== transaction section ===================================== -->
      <section class="all-transaction mb-5">
-        <div class="features-content container">
+        <div class="features-content margin">
             <span data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                 <h4>Latest Transactions</h4>
                 <h1>MONTHLY INCOME FEED</h1>
@@ -367,25 +405,31 @@
             </span>
                 <div class="transaction-item-header py-5">
                     <div class="transaction-item-content">
-                        <div class="transaction-item" id="type-1">
-                            <i class="fa fa-wallet" style="font-size: 1.8rem;"></i>
-                            <div class="transaction-detail-name">
-                                <h6>LAST</h6>
-                                <h6>DEPOSITS</h6>
+                        <div class="transfer-1">
+                            <div class="transaction-item" id="type-1">
+                                <i class="fa fa-wallet" style="font-size: 1.8rem;"></i>
+                                <div class="transaction-detail-name">
+                                    <h6>LAST</h6>
+                                    <h6>DEPOSITS</h6>
+                                </div>
                             </div>
                         </div>
-                        <div class="transaction-item" id="type-2">
-                            <i class="fa fa-money-bill-transfer" style="font-size: 1.8rem;"></i>
-                            <div class="transaction-detail-name">
-                                <h6>LAST</h6>
-                                <h6>WITHDRAWALS</h6>
+                        <div class="transfer-2">
+                            <div class="transaction-item" id="type-2">
+                                <i class="fa fa-money-bill-transfer" style="font-size: 1.8rem;"></i>
+                                <div class="transaction-detail-name">
+                                    <h6>LAST</h6>
+                                    <h6>WITHDRAWALS</h6>
+                                </div>
                             </div>
                         </div>
-                        <div class="transaction-item" id="type-3">
-                            <i class="fa fa-users" style="font-size: 1.8rem;"></i>
-                            <div class="transaction-detail-name">
-                                <h6>LAST</h6>
-                                <h6>INVESTORS</h6>
+                        <div class="transfer-3">
+                            <div class="transaction-item" id="type-3">
+                                <i class="fa fa-users" style="font-size: 1.8rem;"></i>
+                                <div class="transaction-detail-name">
+                                    <h6>LAST</h6>
+                                    <h6>INVESTORS</h6>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -655,7 +699,7 @@
       <!-- ========================== call back section ============================ -->
      <section class="all-call-back" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
         <div class="call-back-content margin">
-            <div class="start-earn">
+            <div class="start-earn mb-4">
                 <div class="earn-image">
                     <img src="./assets/image/icon01.png" alt="">
                 </div>
@@ -828,10 +872,8 @@
     <!-- =================================== end of footer section ====================================== -->
 
 
-
-
 <?php 
-    require_once('./script.php');
+    require_once ('./script.php');
 ?>
 
 </body>

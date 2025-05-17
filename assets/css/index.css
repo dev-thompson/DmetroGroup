@@ -24,6 +24,19 @@
     text-decoration: none;
     gap: 20px;
 }
+.side-button {
+    /* width: 100%; */
+    border: none;
+    outline: none;
+    padding: 13px 40px;
+    background-color: var(--primary);
+    color: var(--secondary);
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    gap: 20px;
+}
 .main {
     border: none;
     outline: none;
@@ -65,6 +78,68 @@ body{
    background: var(--secondary);
    font-family: sans-serif;
 }
+
+/* ====================== sidebar section ======================== */
+#sidebar {
+    position: fixed;
+    top: 0;
+    left: -1000px;
+    height: 50vh;
+    background-color:var(--secondary);
+    width: 25%;
+    border-radius: 0 30px 30px 0;
+    border: 1px solid #ddd;
+    padding:10px 15px;
+    color: var(--dim-main);
+    transition: left 1s ease;
+    display: none;
+    z-index: 10000;
+}
+#sidebar.show{
+    left: 0;
+}
+.no-scroll {
+    overflow: hidden;
+}
+.cat{
+    display: flex;
+    color:var(--item);
+    align-items: center;
+    gap: 10px;
+}
+.cat i{
+    color: var(--dash);
+}
+.middle span{
+    display: block;
+    margin-bottom: 10px;
+}
+.middle a{
+    text-decoration: none;
+    color:var(--item);
+}
+
+.side-logo{
+    justify-self: center;
+    margin-bottom: 20px;
+}
+.side-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.side-item a{
+    color: var(--item);
+}
+.side-logo img{
+    padding-top: 25px;
+}
+.side-item i{
+    color:var(--dash);
+}
+/* ====================== end of sidebar section ======================== */
+
+
 /* =============== navbar section =================== */
 .all-navbar {
     background: var(--secondary) ;
@@ -90,9 +165,33 @@ body{
     font-weight: bold;
     font-size: 15px;
 }
+#bars {
+    cursor: pointer;
+    display: none;
+}
+#bars span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: var(--primary);
+    margin-bottom: 5px;
+    transition: 1s ease;
+}
+#bars.show span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+#bars.show span:nth-child(2) {
+    opacity: 0;
+}
+#bars.show span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
 /* =============== end of navbar section =================== */
 
 /* ================== hero section ======================== */
+.hero-right-content {
+    width: 100%;
+}
 .hero-content {
     display: flex;
     align-items:flex-start;
@@ -124,13 +223,16 @@ body{
     align-items:baseline;
     gap: 30px;
 }
+.all-intro {
+     box-shadow: 0 0 1px  var(--primary);
+     padding: 25px 0 10px 0;
+}
 .intro-content {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 50px;
-    padding: 25px 0;
-    box-shadow: 0 0 1px  var(--primary);
+   
 }
 .intro-title h1{
     color: var(--dim-main);
@@ -366,6 +468,7 @@ body{
     align-items: center;
     justify-self: center;
     gap: 40px;
+    flex-wrap: wrap;
     border-radius: 40px;
     padding: 10px 20px;
     border: 1px solid #ccc;
