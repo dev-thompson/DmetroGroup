@@ -7,7 +7,7 @@
             <div class="nav-right">
                 <a href="./index.php">HOME</a>
                 <a href="./about.php">ABOUT</a>
-                <a href="">
+                <a href="./register.php">
                     <button class="main-button">JOIN US</button>
                 </a>
             </div>

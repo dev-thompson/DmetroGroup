@@ -22,12 +22,20 @@
 
 
 @media (max-width:1000px) {
+     .sign-input {
+        width: 60%;
+        margin: 40px auto;
+    }
     .hero-left {
         display: none;
     }
     .hero-right {
         margin-bottom: 30px;
         width: 100%;
+    }
+    .sign-input {
+        width: 60%;
+        margin: 40px auto;
     }
 }
 
@@ -132,6 +140,10 @@
     }
 }
 @media (max-width:700px) {
+    .sign-input {
+        width: 80%;
+        margin: 40px auto;
+    }
     .call-back-content {
         display: block;
         justify-items: center;
@@ -212,6 +224,16 @@
 
 }
 @media (max-width:420px) {
+    .sign-input {
+        width: 100%;
+        margin: 40px auto;
+    }
+    .quest {
+        font-size: 13px;
+    }
+    .quest-1 {
+        font-size: 13px;
+    }
     .hero-right h1 span{
         display: block;
         font-size: 40px;
@@ -224,7 +246,7 @@
     }
     #sidebar {
         width: 65%;
-        height: 50vh;
+        height: 40vh;
     }
     .about-right h1 {
         font-weight: bold;

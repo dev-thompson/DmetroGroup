@@ -64,6 +64,19 @@
     margin: 5px;
     transition: 0.1s;
 }
+.login-btn {
+    border: none;
+    outline: none;
+    padding: 13px 40px;
+    background-color: var(--primary);
+    color: var(--secondary);
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 20px;
+    margin: 5px;
+    display: flex;
+    justify-self: center;
+}
 .plan:hover {
     background: transparent;
     border: 1px solid var(--primary);
@@ -583,6 +596,11 @@ body{
     border: 1px dashed #bbb;
     margin: 15px 0 25px 0;
 }
+.line-1{
+    height: 1px;
+    width: 100%;
+    background-color: #ccc;
+}
 .plan-content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -763,3 +781,71 @@ body{
     text-align: center;
 }
 /* ==================================== end of about =================================== */
+
+/* ================================= sign up section ================================= */
+.all-signup {
+    background: #f8f8f8;
+    padding: 50px 0;
+}
+.signup-head {
+    display: flex;
+    align-items: center;
+    gap: 350px  ;
+}
+.sign-content {
+    padding: 40px;
+    background-color: white;
+    box-shadow: 0 0 5px var(--primary);
+    border-radius: 20px;
+}
+.sign-input {
+    width: 40%;
+    margin: 40px auto;
+}
+.sign-space input{
+    border: none;
+    width: 100%;
+    outline: none;
+}
+.sign-1 a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    color: var(--dim-main);
+}
+.sign-1 a:hover {
+    color: var(--primary);
+}
+.sign-space {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 17px;
+    border-radius: 6px;
+}
+.login-select {
+    display: flex;
+    align-items:baseline;
+    gap: 10px;
+}
+.quest p{
+    text-align: center;
+}
+.quest a {
+    text-decoration: none;
+    color: var(--dim-main);
+    font-weight: bolder;
+}
+.quest-1 a {
+    text-decoration: none;
+    color: var(--dim-main);
+    font-weight: bolder;
+}
+.sign-2{
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: var(--main);
+}
+/* ================================= end of sign up section ================================= */

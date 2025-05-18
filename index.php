@@ -26,7 +26,9 @@
                     </h1>
                     <p>A Profitable platform for high-margin investment</p>
                     <div class="hero-right-cta">
-                        <button class="main-button">Get Started Now!</button>
+                        <a href="./register.php">
+                            <button class="main-button">Get Started Now!</button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -185,7 +187,7 @@
                         </div>
                         <div class="step-title">
                             <h4>INSTANT REGISTRATION</h4> 
-                            <P>Click <a href="">Sign Up</a> to fill the blank, our 256 SSL will Protect your privacy.</P>
+                            <P>Click <a href="./register.php">Sign Up</a> to fill the blank, our 256 SSL will Protect your privacy.</P>
                         </div>
                     </div>
                     <div class="know-right-content mb-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
@@ -194,7 +196,7 @@
                         </div>
                         <div class="step-title">
                             <h4>MAKE AND INVEST</h4>
-                            <P><a href="">Login</a> your account to click invest to start to earn the profit.</P>
+                            <P><a href="./sign-in.php">Login</a> your account to click invest to start to earn the profit.</P>
                         </div>
                     </div>
                     <div class="know-right-content" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
