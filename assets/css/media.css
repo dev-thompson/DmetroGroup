@@ -253,4 +253,17 @@
         color:var(--main);
         font-size: 40px;
     }
+    .testimonial-left h1{
+        color: var(--main);
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .testimonial-left p span{
+        display: unset;
+        color: var(--main);
+    }
+    .testimony-text p span{
+        display: block;
+        color: var(--main);
+    }
 }

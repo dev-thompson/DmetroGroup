@@ -10,6 +10,9 @@
     --main: #33406a;
     --dim-main:#324fb0;
 }
+a{
+    text-decoration: none;
+}
 .main-button {
     border: none;
     outline: none;
@@ -21,7 +24,7 @@
     font-size: 15px;
     display: flex;
     align-items: center;
-    text-decoration: none;
+    text-decoration: none;  
     gap: 20px;
 }
 .side-button {
@@ -226,6 +229,9 @@ body{
 .hero-right p {
     font-size: 30px;
     color: var(--main);
+}
+.hero-right-cta{
+    text-decoration: none;
 }
 /* ================== end of hero section ======================== */
 
@@ -848,4 +854,5 @@ body{
     font-weight: bold;
     color: var(--main);
 }
+
 /* ================================= end of sign up section ================================= */
