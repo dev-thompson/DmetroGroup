@@ -10,7 +10,6 @@
         require_once('./navbar.php');
    ?>
 
-
     <!-- ==================== about hero section ==================== -->
      <div class="about-head">
         <div class="about-title margin">
@@ -26,9 +25,9 @@
                 <img src="./assets/image/about.png" alt="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
             </div>
             <div class="about-right" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                <h5>WELCOME TO WealthForge</h5>
-                <h1>ABOUT WEALTHFORGE</h1>
-                <p>WealthForge is an investment company, whose team is working on making money from the volatility of cryptocurrencies and offer great returns to our clients.</p>
+                <h5>WELCOME TO DivestiaMetroGroup</h5>
+                <h1>ABOUT DMetroGroup</h1>
+                <p>DivestiaMetroGroup is an investment company, whose team is working on making money from the volatility of cryptocurrencies and offer great returns to our clients.</p>
                 <div class="about-items mt-5 mb-4">
                     <div class="about-item-1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                         <div class="about-image">

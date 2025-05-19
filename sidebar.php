@@ -17,7 +17,7 @@
                   </div>
                   <!-- <div class="side-line mb-3 mt-3"></div> -->
                   <div class="side-item margin-1">
-                      <a href="./register.php" class="w-100">
+                      <a href="./sign-in.php" class="w-100">
                         <button class="side-button w-100">LOGIN</button>
                       </a>
                   </div>

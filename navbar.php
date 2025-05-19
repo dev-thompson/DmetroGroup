@@ -2,12 +2,14 @@
      <nav class="all-navbar">
         <div class="navbar-content margin">
             <div class="nav-left">
-                <img width="200" src="./assets/image/black-logo.png" alt="">
+                <a href="./index.php">
+                    <img width="200" src="./assets/image/black-logo.png" alt="">
+                </a>
             </div>
             <div class="nav-right">
                 <a href="./index.php">HOME</a>
                 <a href="./about.php">ABOUT</a>
-                <a href="./register.php">
+                <a href="./sign-in.php">
                     <button class="main-button">JOIN US</button>
                 </a>
             </div>

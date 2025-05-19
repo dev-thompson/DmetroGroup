@@ -838,6 +838,9 @@ body{
 .quest p{
     text-align: center;
 }
+.forget-pass p{
+    text-align: center;
+}
 .quest a {
     text-decoration: none;
     color: var(--dim-main);
@@ -847,6 +850,9 @@ body{
     text-decoration: none;
     color: var(--dim-main);
     font-weight: bolder;
+}
+.quest-1 h3{
+    color: var(--main);
 }
 .sign-2{
     margin-bottom: 40px;

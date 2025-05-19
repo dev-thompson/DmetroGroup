@@ -5,7 +5,7 @@
    <section class="all-signup">
         <div class="signup-head mb-3 margin">
             <div class="sign-1">
-                <a href="./index.php"><i class="fa fa-chevron-left"></i> Back To WealthForge</a>
+                <a href="./index.php"><i class="fa fa-chevron-left"></i> Back To DivestiaMetroGroup</a>
             </div>
         </div>
         <form action="" class="sign-input">
@@ -24,7 +24,7 @@
                      <span class="eye-icon"><i class="far fa-eye " style="font-size: 0.9rem;" onclick="togglePasswordVisibility()"></i></span>
                 </div>
                  <div class="quest-1 mb-4">
-                    <p>Forgot your password? <a href="">Recover Password</a></p>
+                    <p>Forgot your password? <a href="./forgotten-password.php">Recover Password</a></p>
                 </div>
                 <div class="login-cta mb-4">
                     <button type="button" class="login-btn">Login</button>

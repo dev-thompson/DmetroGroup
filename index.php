@@ -26,7 +26,7 @@
                     </h1>
                     <p>A Profitable platform for high-margin investment</p>
                     <div class="hero-right-cta">
-                        <a href="./register.php">
+                        <a href="./sign-in.php">
                             <button class="main-button">Get Started Now!</button>
                         </a>
                     </div>
@@ -78,9 +78,9 @@
                 <img src="./assets/image/about.png" alt="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
             </div>
             <div class="about-right" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                <h5>WELCOME TO WealthForge</h5>
-                <h1>ABOUT WEALTHFORGE</h1>
-                <p>WealthForge is an investment company, whose team is working on making money from the volatility of cryptocurrencies and offer great returns to our clients.</p>
+                <h5>WELCOME TO DivestiaMetroGroup</h5>
+                <h1>ABOUT DivestiaMetroGroup</h1>
+                <p>DivestiaMetroGroup is an investment company, whose team is working on making money from the volatility of cryptocurrencies and offer great returns to our clients.</p>
                 <div class="about-items mt-5 mb-4">
                     <div class="about-item-1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                         <div class="about-image">
@@ -137,7 +137,7 @@
                     </div>
                     <div class="features-title">
                         <h4>PROFITABLE INVESTMENT</h4>
-                        <p>WealthForge has a very big profitable investment</p>
+                        <p>DivestiaMetroGroup has a very big profitable investment</p>
                     </div>
                 </div>
                 <div class="features-1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
@@ -146,7 +146,7 @@
                     </div>
                     <div class="features-title">
                         <h4>DDS PROTECTION</h4>
-                        <p>WealthForge has a very high DDS protection</p>
+                        <p>DivestiaMetroGroup has a very high DDS protection</p>
                     </div>
                 </div>
                 <div class="features-1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
@@ -155,7 +155,7 @@
                     </div>
                     <div class="features-title">
                         <h4>24/7 SUPPORT CENTER</h4>
-                        <p>Here at WealthForge our customer support is 24/7</p>
+                        <p>Here at DivestiaMetroGroup our customer support is 24/7</p>
                     </div>
                 </div>
             </div>
@@ -242,7 +242,7 @@
                 <h4>INVESTMENT OFFER</h4>
                 <h1>OUR INVESTMENT PLANS</h1>
                 <p>
-                    <span>WealthForge provides a straightforward and transparent mechanism to attract</span>
+                    <span>DivestiaMetroGroup provides a straightforward and transparent mechanism to attract</span>
                     <span>investments and make more profits.</span>
                 </p>
             </span>
@@ -628,7 +628,7 @@
                     <span>We give you the opportunity to earn money by recommending our website to</span>
                     <span>others. You can start earning money even if you do not invest.</span>
                 </p>
-                <p>Make money with WealthForge</p>
+                <p>Make money with DivestiaMetroGroup</p>
                 <div class="affiliate-cta">
                     <button class="main-button">Learn More<i class="fa fa-arrow-right"></i></button>
                 </div>
